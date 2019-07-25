@@ -13,7 +13,6 @@ const Button = styled.button`
   cursor: pointer;
   outline: 0;
   text-transform: none;
-  touch-action: manipulation;
 	white-space: nowrap;
 	
 	&:disabled {
