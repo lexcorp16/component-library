@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ButtonTailwind from './components/Button.tailwind'
-import ButtonStyled from './components/Button.styled'
+import ButtonStyled from './components/Button'
 
 function App() {
   return (
