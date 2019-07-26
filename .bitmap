@@ -13,17 +13,5 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "xander.component-library/components/buttontailwind@1.0.0": {
-        "files": [
-            {
-                "relativePath": "src/components/Button.tailwind.js",
-                "test": false,
-                "name": "Button.tailwind.js"
-            }
-        ],
-        "mainFile": "src/components/Button.tailwind.js",
-        "origin": "AUTHORED",
-        "exported": true
-    },
     "version": "14.2.2"
 }
