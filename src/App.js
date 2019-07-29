@@ -1,19 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ButtonTailwind from './components/Button.tailwind'
-import ButtonStyled from './components/Button'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ButtonTailwind disabled={true}>Click Me</ButtonTailwind>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <ButtonStyled disabled={true}>Click Me</ButtonStyled>
         <a
           className="App-link"
           href="https://reactjs.org"
