@@ -26,17 +26,17 @@ const Button = styled.button`
     pointer-events: none;
   }
 
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: #35a454;
-    border-color: #31984e;
-  }
-
   &.danger {
     color: #fff;
     background: ${colours.danger};
     border-color: ${colours.danger};
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: #ee3939;
+      border-color: #ed2a2a;
+    }
   }
 
   &.default {
@@ -49,6 +49,13 @@ const Button = styled.button`
     color: #fff;
     background: ${colours.defaultGreen};
     border-color: ${colours.defaultGreen};
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: #35a454;
+      border-color: #31984e;
+    }
   }
 `;
 
