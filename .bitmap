@@ -13,7 +13,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "xander.component-library/components/button@1.0.1": {
+    "xander.component-library/components/button@1.0.11": {
         "files": [
             {
                 "relativePath": "src/components/Button.js",
